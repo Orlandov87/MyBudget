@@ -10,11 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var signInButton: UIButton!
+    @IBOutlet weak var whiteLayout: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        signInButton.layer.cornerRadius = 8
+        whiteLayout.layer.cornerRadius = 8
     }
 
-
 }
-
